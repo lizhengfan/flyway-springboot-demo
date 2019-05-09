@@ -30,9 +30,9 @@ mysql版本:5.7
 
 ~~~	
 <dependency>
-			<groupId>org.flywaydb</groupId>
-			<artifactId>flyway-core</artifactId>
-			<version>5.2.4</version>
+	<groupId>org.flywaydb</groupId>
+	<artifactId>flyway-core</artifactId>
+	<version>5.2.4</version>
 </dependency>
 ~~~
   
