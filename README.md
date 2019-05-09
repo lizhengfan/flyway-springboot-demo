@@ -28,13 +28,13 @@ mysql版本:5.7
 ### 2.添加maven
 在pom中添加flyway依赖包
 
-	
+~~~	
 <dependency>
 			<groupId>org.flywaydb</groupId>
 			<artifactId>flyway-core</artifactId>
 			<version>5.2.4</version>
 </dependency>
-
+~~~
   
 ### 3.创建数据迁移目录
 ### 4.添加数据库配置
