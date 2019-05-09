@@ -44,7 +44,7 @@ mysql版本:5.7
 ~~~
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/flyway?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8&useSSL=false
+    url: jdbc:mysql://localhost:3306/flyway?useUnicode=true&characterEncoding=utf8&useSSL=false
     username: root
     password: 123456
 ~~~
