@@ -12,13 +12,25 @@
 这是一个介绍flyway的使用示例，如果你是flyway的新手，希望对你有所帮助
 
 ## 开发环境
+开发工具:IntelliJ idea
+
 java版本:1.8
 
 flyway版本:5.2.4
 
 springboot版本:2.1.4
 
+mysql版本:5.7
+
 ## 开发步骤
+### 1.创建springboot项目
+你可以用idea或在springboot官网初始化项目，请注意添加web模块
+### 2.添加maven
+### 3.创建数据迁移目录
+### 4.添加数据库配置
+### 5.创建数据库
+### 6.添加flyway执行api
+
 
 ## 测试时间
 
