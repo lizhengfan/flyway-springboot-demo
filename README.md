@@ -54,20 +54,20 @@ spring:
 
 ### 6.使用flyway api方法执行数据迁移
 ~~~
-	@Value("${spring.datasource.url}")
-	private String url;
+   @Value("${spring.datasource.url}")
+   private String url;
 
-	@Value("${spring.datasource.username}")
-	private String username;
+   @Value("${spring.datasource.username}")
+   private String username;
 
-	@Value("${spring.datasource.password}")
-	private String password;
+   @Value("${spring.datasource.password}")
+   private String password;
 
-	@RequestMapping("/executeFlyway")
-	public void executeFlyway(){
-		Flyway flyway = Flyway.configure().dataSource(this.url,this.username,this.password).load();
-		flyway.migrate();
-	}
+   @RequestMapping("/executeFlyway")
+   public void executeFlyway(){
+	Flyway flyway = Flyway.configure().dataSource(this.url,this.username,this.password).load();
+	flyway.migrate();
+   }
 ~~~
 
 ## 测试实践
