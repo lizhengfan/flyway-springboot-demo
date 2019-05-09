@@ -50,7 +50,9 @@ spring:
 ~~~
 
 ### 5.创建数据库
-### 6.添加flyway执行api
+在mysql数据库中创建数据库flyway
+
+### 6.使用flyway api方法执行数据迁移
 	
 
 ## 测试实践
