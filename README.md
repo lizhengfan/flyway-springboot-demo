@@ -37,6 +37,8 @@ mysql版本:5.7
 ~~~
   
 ### 3.创建数据迁移目录
+在classpath下创建db/migration目录
+
 ### 4.添加数据库配置
 ### 5.创建数据库
 ### 6.添加flyway执行api
