@@ -40,6 +40,15 @@ mysql版本:5.7
 在classpath下创建db/migration目录
 
 ### 4.添加数据库配置
+在application.yml中添加数据库配置
+~~~
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/flyway?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: 123456
+~~~
+
 ### 5.创建数据库
 ### 6.添加flyway执行api
 	
