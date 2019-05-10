@@ -74,7 +74,11 @@ spring:
 ## 测试实践
  
 ### 步骤一:初始化数据库表
-  	
+  	1.创建迁移文件V1__init_database.sql
+	
+	2.查看数据库
+	
+	![avatar](http://baidu.com/pic/doge.png)
   
 ### 步骤二:更新数据库表字段
   
