@@ -4,8 +4,7 @@
 - 开发环境
 + 开发步骤
 - 测试实践
-+ 项目下载
-- 联系我
++ 联系我
 
 ***
 
@@ -102,7 +101,8 @@ alter table member add age int(11) not null default 0;
 ### 步骤三:查看数据库更新记录
 ![迁移记录](https://github.com/lizhengfan/flyway-springboot-demo/blob/master/assets/20190509092808.png) 
 
-## 项目下载
-
 ## 联系我
+qq:5309050
+wx:Lenaryli
+
 
