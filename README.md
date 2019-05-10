@@ -78,7 +78,7 @@ spring:
 	
 	2.查看数据库
 	
-	![avatar](http://baidu.com/pic/doge.png)
+	.![avatar](https://github.com/lizhengfan/flyway-springboot-demo/blob/master/assets/20190509092652.png)
   
 ### 步骤二:更新数据库表字段
   
