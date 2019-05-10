@@ -85,11 +85,12 @@ spring:
 
 2.查看数据库
 	
-![更新的表字段](https://github.com/lizhengfan/flyway-springboot-demo/blob/master/assets/20190509092652.png) 
+![更新的表字段](https://github.com/lizhengfan/flyway-springboot-demo/blob/master/assets/20190509092754.png) 
 
 ### 步骤三:查看数据库更新记录
-![迁移记录](https://github.com/lizhengfan/flyway-springboot-demo/blob/master/assets/20190509092652.png) 
+![迁移记录](https://github.com/lizhengfan/flyway-springboot-demo/blob/master/assets/20190509092808.png) 
 
 ## 项目下载
 
 ## 联系我
+
