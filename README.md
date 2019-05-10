@@ -75,12 +75,20 @@ spring:
  
 ### 步骤一:初始化数据库表
 1.创建迁移文件V1__init_database.sql
+
 2.查看数据库
 	
 ![新创建的表](https://github.com/lizhengfan/flyway-springboot-demo/blob/master/assets/20190509092652.png)
   
 ### 步骤二:更新数据库表字段
-  
+1.创建迁移文件V1.0.1__member_20190509.sql
+
+2.查看数据库
+	
+![更新的表字段](https://github.com/lizhengfan/flyway-springboot-demo/blob/master/assets/20190509092652.png) 
+
+### 步骤三:查看数据库更新记录
+![迁移记录](https://github.com/lizhengfan/flyway-springboot-demo/blob/master/assets/20190509092652.png) 
 
 ## 项目下载
 
