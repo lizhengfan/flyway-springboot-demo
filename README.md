@@ -75,6 +75,15 @@ spring:
  
 ### 步骤一:初始化数据库表
 1.创建迁移文件V1__init_database.sql
+~~~
+use flyway;
+
+create table member(
+        id INT NOT NULL AUTO_INCREMENT,
+        name VARCHAR(20) NOT NULL,
+        PRIMARY KEY ( id )
+);
+~~~
 
 2.查看数据库
 	
@@ -82,7 +91,10 @@ spring:
   
 ### 步骤二:更新数据库表字段
 1.创建迁移文件V1.0.1__member_20190509.sql
-
+~~~
+use flyway;
+alter table member add age int(11) not null default 0;
+~~~
 2.查看数据库
 	
 ![更新的表字段](https://github.com/lizhengfan/flyway-springboot-demo/blob/master/assets/20190509092754.png) 
